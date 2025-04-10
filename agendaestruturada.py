@@ -45,7 +45,7 @@ def printContacts():
         print(f"{i+1}°\nContato: {name}\n Número: {number}\n",25*"-")
         i+=1            
 
-def removeContacts(lista):
+def removeContacts():
     print(25*"-","Remover Contato",25*"-")
     printContacts()
     remove = int(input("Digite a posição que você deseja remover: "))
